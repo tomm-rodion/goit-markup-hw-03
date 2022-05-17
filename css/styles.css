@@ -19,6 +19,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color:var(--text-color);
+    
 }
 
 .list{
@@ -37,27 +38,33 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
  .logo-web {
     color: var(--accent-color);
  }
  .logo-studio {
-    color: #000000;
+    color: #000000;}
 
 /* identical to box height */
-}
-.nav-link{
-    color:var(--text-color); 
-}
 .header-nav{
     background-color:var(--main-color);
 }
+
+.nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 16px;
+    color:var(--text-color); 
+}
+
 .contact{
-    color:var(--second-text-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color:var(--second-text-color);
 }
 .nav-link:hover,
 .nav-link:focus,
@@ -92,6 +99,12 @@ letter-spacing: 0.06em;
 color:var(--main-color);
 background:var(--accent-color);
 }
+.button-baner:focus,
+.button-baner:hover{
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
 
 /* сексія особливості features */
 .features-title{
@@ -108,7 +121,6 @@ background:var(--accent-color);
     color:var(--text-color) ;
 }  
 .features-text{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -123,7 +135,6 @@ background:var(--accent-color);
 }
 
 .section-title{
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -150,13 +161,18 @@ background:var(--accent-color);
 .footer-title{
    background-color: var(--second-theme-color); 
 }
+.footer-logo{
+    color: var(--main-color);
+}
 .footer-address{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--main-color);
 }
 .footer-contact{
+    font-style: normal;
     font-size: 14px;
     line-height:1.7;
     letter-spacing: 0.03em;
@@ -175,7 +191,8 @@ background:var(--accent-color);
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    color:var(--text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
 }
 
 .button-title:focus,
