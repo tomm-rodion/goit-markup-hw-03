@@ -25,6 +25,9 @@ body{
 .list{
     list-style: none;  
 }
+a {
+    text-decoration: none;
+}
 .link {
     text-decoration: none;
     color: var(--text-color);}
@@ -62,6 +65,7 @@ body{
 
 .contact{
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--second-text-color);
@@ -135,10 +139,11 @@ background:var(--accent-color);
 }
 
 .section-title{
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .our-employees{
     font-weight: 500;
