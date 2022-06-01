@@ -334,7 +334,7 @@ background-color:var(--accent-color);
 .footer-logo{
     color: var(--main-color);
 }
-.footer>.logo{
+.container>.logo{
     padding: 0;
     margin-bottom: 20px;
 }
